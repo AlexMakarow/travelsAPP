@@ -44,6 +44,8 @@ export default function CurrencyConverter() {
     return trend.startsWith('+') ? 'text-emerald-600' : 'text-red-600';
   };
 
+  console.log(mockRates);
+
   return (
     <div className="bg-white rounded-xl border border-neutral-200 p-6">
       <div className="flex items-center justify-between mb-6">
